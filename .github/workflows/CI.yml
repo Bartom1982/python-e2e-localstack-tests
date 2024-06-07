@@ -141,4 +141,4 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: API tests
-      run: pytest C:/Users/bartom/pythonProjects/e2e-localstack/python-e2e-localstack-tests/api/test_basic_api.py      
+      run: pytest tests/api/test_basic_api.py
