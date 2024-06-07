@@ -4,7 +4,7 @@ import allure
 
 @allure.feature('IP API')
 @allure.story('Basic API tests')
-@allure.title('My IP request status is 200')
+
 def test_my_ip_request_status_is200():
     url = "https://api.ipify.org/?format=json"
     response = requests.get(url)
